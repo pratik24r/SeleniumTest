@@ -3,4 +3,9 @@ stages:
 
 selenium-test:
     stage: test
+    tags:
+        - shell
+    script:
+        - mvn clean test
+        - echo "testcase passed"    
         
