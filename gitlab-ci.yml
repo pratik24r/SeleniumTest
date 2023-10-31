@@ -1,1 +1,6 @@
+stages:
+    - test
 
+selenium-test:
+    stage: test
+        
