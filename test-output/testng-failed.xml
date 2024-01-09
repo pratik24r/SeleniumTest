@@ -6,6 +6,8 @@
       <class name="Testcases.Employee">
         <methods>
           <include name="Validate_url"/>
+          <include name="testCase2"/>
+          <include name="testCase1"/>
         </methods>
       </class> <!-- Testcases.Employee -->
     </classes>
