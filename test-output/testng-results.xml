@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-10T09:36:49 IST" name="Default suite" finished-at="2024-01-10T09:36:54 IST" duration-ms="5526">
+  <suite started-at="2024-01-10T14:07:20 IST" name="Default suite" finished-at="2024-01-10T14:07:23 IST" duration-ms="3692">
     <groups>
     </groups>
-    <test started-at="2024-01-10T09:36:49 IST" name="Default test" finished-at="2024-01-10T09:36:54 IST" duration-ms="5526">
+    <test started-at="2024-01-10T14:07:20 IST" name="Default test" finished-at="2024-01-10T14:07:23 IST" duration-ms="3692">
       <class name="Testcases.Employee">
-        <test-method is-config="true" signature="Validate_url()[pri:0, instance:Testcases.Employee@46d59067]" started-at="2024-01-10T09:36:49 IST" name="Validate_url" finished-at="2024-01-10T09:36:54 IST" duration-ms="5443" status="PASS">
+        <test-method is-config="true" signature="Validate_url()[pri:0, instance:Testcases.Employee@46d59067]" started-at="2024-01-10T14:07:20 IST" name="Validate_url" finished-at="2024-01-10T14:07:23 IST" duration-ms="3618" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Validate_url -->
-        <test-method signature="testCase1()[pri:0, instance:Testcases.Employee@46d59067]" started-at="2024-01-10T09:36:54 IST" name="testCase1" finished-at="2024-01-10T09:36:54 IST" duration-ms="9" status="PASS">
+        <test-method signature="testCase1()[pri:0, instance:Testcases.Employee@46d59067]" started-at="2024-01-10T14:07:23 IST" name="testCase1" finished-at="2024-01-10T14:07:23 IST" duration-ms="9" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCase1 -->
-        <test-method signature="testCase2()[pri:0, instance:Testcases.Employee@46d59067]" started-at="2024-01-10T09:36:54 IST" name="testCase2" finished-at="2024-01-10T09:36:54 IST" duration-ms="2" status="PASS">
+        <test-method signature="testCase2()[pri:0, instance:Testcases.Employee@46d59067]" started-at="2024-01-10T14:07:23 IST" name="testCase2" finished-at="2024-01-10T14:07:23 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCase2 -->
