@@ -1,4 +1,16 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.989 s - in TestSuite
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 4, Time elapsed: 1.798 s <<< FAILURE! - in TestSuite
+Testcases.Employee.Validate_url  Time elapsed: 1.55 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: session not created: Microsoft Edge failed to start: exited normally.
+  (session not created: DevToolsActivePort file doesn't exist)
+  (The process started from msedge location /usr/bin/microsoft-edge is no longer running, so msedgedriver is assuming that msedge has crashed.) 
+Host info: host: 'fspratik-ThinkPad-L480', ip: '127.0.1.1'
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-91-generic', java.version: '11.0.21'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [start-maximized, disable-infobars, --disable-extensions, --disable-gpu, --disable-dev-shm-usage, --no-sandbox], extensions: []}}]}]
+	at Testcases.Employee.Validate_url(Employee.java:27)
+
